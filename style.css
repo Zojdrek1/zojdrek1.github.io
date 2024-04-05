@@ -1,24 +1,62 @@
+/*  */
 @font-face {
     font-family: "CascadiaCode";
     src: url('fonts/CascadiaCode/ttf/CascadiaCode.ttf') format('truetype');
 
 }
-
 body {
     font-family: "CascadiaCode";
 }
 
-.title {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+/* Section Dividers */
+.container {
+    display: block;
 }
 
+.title {
+
+    margin: auto;
+    margin-top: 5vh;
+    width: 50%;
+
+}
+
+
 .aboutMe {
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    right: 10%;
-    transform: translate(-10%, -10%);
+
+    margin: auto;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.projects {
+
+    margin: auto;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.projectBox {
+
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-left: solid;
+    border-right-width: 100;
+
+    border-color: black;
+    width: 100%;
+    padding-left: 2.5%;
+
+    
+}
+
+.project_title {
+    line-height: 1px;
 }
