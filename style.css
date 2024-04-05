@@ -20,6 +20,8 @@ body {
     margin: auto;
     margin-top: 5vh;
     width: 50%;
+    float: none;
+
 
 }
 
@@ -51,7 +53,7 @@ body {
     border-right-width: 100;
 
     border-color: black;
-    width: 100%;
+    width: 90%;
     padding-left: 2.5%;
 
     
