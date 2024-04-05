@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "CascadiaCode";
+    src: url('fonts/CascadiaCode/ttf/CascadiaCode.ttf') format('truetype');
+
+}
+
+body {
+    font-family: "CascadiaCode";
+}
+
+.title {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutMe {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    transform: translate(-10%, -10%);
+}
