@@ -6,6 +6,8 @@
 }
 body {
     font-family: "CascadiaCode";
+    background-color: #EEEEEE;
+    color: #222831;
 }
 
 
@@ -16,7 +18,8 @@ body {
 }
 
 .title {
-
+    
+    color: #222831;
     margin: auto;
     margin-top: 5vh;
     margin-left: auto;
@@ -27,9 +30,8 @@ body {
 
 
 .aboutMe {
-
-    margin: auto;
     
+    margin: auto;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -38,7 +40,6 @@ body {
 .projects {
 
     margin: auto;
-    
     margin-left: 10%;
     margin-right: 10%;
 
@@ -52,7 +53,7 @@ body {
     border-left: solid;
     border-right-width: 100;
 
-    border-color: black;
+    border-color: #393E46;
     width: 90%;
     padding-left: 2.5%;
 
