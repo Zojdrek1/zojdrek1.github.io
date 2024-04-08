@@ -7,6 +7,10 @@
 body {
     font-family: "CascadiaCode";
     background-color: #EEEEEE;
+    color: #393E46;
+}
+
+h1, h2, h3 {
     color: #222831;
 }
 
@@ -18,13 +22,11 @@ body {
 }
 
 .title {
-    
+    background-color: 393E46;
     color: #222831;
-    margin: auto;
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 100%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 
 }
 
@@ -52,16 +54,24 @@ body {
     margin-right: 10%;
     border-left: solid;
     border-right-width: 100;
-
-    border-color: #393E46;
+    border-left-width: 0.5vh;
+    border-color: #222831;
+    color: #393E46;
     width: 90%;
     padding-left: 2.5%;
+    
 
+    
+}
+
+.projectBox:hover {
+    background-color: white;
     
 }
 
 .project_title {
     line-height: 1px;
+    
 }
 
 
